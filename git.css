@@ -1,0 +1,26 @@
+<div class="forget_password clearfix firstloginpage">
+		   <h2>Login to your account</h2>
+		   <div class="form_area_loging_outer clearfix">
+		    <div class="form_area_loging">
+		      <ul class="login_fields">
+		      
+		       <li>
+		       	<span class="error" style="display:inline;">
+		       		
+		       		
+		       	</span>
+		       </li>
+		       <li><label>Username</label><input type="text" tabindex="1" name="userName" placeholder="Enter username" autocomplete="off" value=""></li>
+		       <li><label>Password</label><input type="password" tabindex="2" name="password" placeholder="Enter password" autocomplete="new-password" value="" id="pasfld"></li>
+		      </ul>
+		      <div class="showpass clearfix">
+				<label class="pull-left"><input type="checkbox" id="togglepassfield">Show password</label>
+				<a href="javascript:void(0);" class="forgetpasswordPage pull-right" tabindex="3">Forgot your password?</a>
+		      </div>
+		    </div>
+		    <div class="login_button_area clearfix">
+		     <input type="submit" class="loging_button" value="Login" id="btnSubmit" tabindex="4">
+		     <input type="reset" value="Reset" class="cancel_button" tabindex="5">
+		    </div>
+		   </div>
+		  </div>
